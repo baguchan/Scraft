@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "baguchan.scraft.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "minVersion": "0.8",
+  "refmap": "scraft.refmap.json",
+  "mixins": [
+    "ItemMixin",
+    "ItemStackMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
